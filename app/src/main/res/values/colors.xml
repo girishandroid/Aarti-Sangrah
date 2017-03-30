@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8c00</color>
+    <color name="colorPrimaryDark">#ff8000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="trnsperent">#00ffffff</color>
+    <color name="trnsperentimageview">#76ffffff</color>
+    <color name="trnsperentnewview">#27ffffff</color>
+    <color name="trnsperentforcard">#4f000000</color>
+    <color name="black_overlay">#9f000000</color>
+    <color name="black">#89000000</color>
+    <color name="black_whitebird">#000000</color>
+    <color name="colorBlue">#e700c8ff</color>
+    <color name="trnsperentforscrollview">#ffdb86</color>
+    <color name="background_list_view_color">#f8c7944f</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.whitebird.aartisangrah.PopToPlayAllSongs">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/popup_image_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playios"
+        android:backgroundTint="@color/trnsperent"
+        android:id="@+id/popup_play_btn"
+        android:tint="@color/colorBlue"
+        android:tag="Play All"
+        android:layout_below="@+id/popup_image_view"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextbutton"
+        android:backgroundTint="@color/trnsperent"
+        android:tint="@color/colorBlue"
+        android:tag="Play All"
+        android:id="@+id/popup_next_button"
+        android:layout_below="@+id/popup_image_view"
+        android:layout_toRightOf="@id/popup_play_btn"
+        android:layout_marginLeft="30dp"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backbutton"
+        android:id="@+id/popup_prev_button"
+        android:backgroundTint="@color/trnsperent"
+        android:tint="@color/colorBlue"
+        android:tag="Play All"
+        android:layout_below="@+id/popup_image_view"
+        android:layout_toLeftOf="@id/popup_play_btn"
+        android:layout_marginRight="30dp"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        />
+</RelativeLayout>

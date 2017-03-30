@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cls_contact_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb_background_image"
+    tools:context="com.whitebird.aartisangrah.ClsContactUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" WhiteBird Technology"
+        android:textStyle="bold"
+        android:textColorHighlight="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="150dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image_view_for_logo_white_bird"
+        android:src="@drawable/wb_logo"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/version"
+        android:layout_below="@id/image_view_for_logo_white_bird"
+        android:layout_centerHorizontal="true"
+        android:text="@string/white_bird_app_version"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="Contact Us"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/white_bird_email"
+        android:paddingTop="40dp"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:textColorLink="@color/colorWhite"
+        android:id="@+id/text_view_for_email"
+        android:layout_below="@id/image_view_for_logo_white_bird"
+        android:layout_centerHorizontal="true"
+        android:autoLink="email" />
+</RelativeLayout>

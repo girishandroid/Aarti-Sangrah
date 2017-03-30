@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "133209802378",
+    "firebase_url": "https://hanuman-chalisa-68e9a.firebaseio.com",
+    "project_id": "hanuman-chalisa-68e9a",
+    "storage_bucket": "hanuman-chalisa-68e9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133209802378:android:5e7714e4c4331692",
+        "android_client_info": {
+          "package_name": "com.whitebird.ganpatibappa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133209802378-5b9ej2lhq3ngk7ncma2uh25frq1jkd7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn51WmY0Zjq3xtB9M8j8zyvXAMH9y3aw4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

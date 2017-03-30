@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Aarti Sangrah</string>
+    <string name="set_lang">Language</string>
+    <string name="set_lang_to_marathi">मराठी</string>
+    <string name="set_lang_to_english">English</string>
+    <string name="set_lang_to_hindi">हिंदी</string>
+    <string name="image">Image</string>
+
+    <string-array name="names_in_english_string">
+        <item>Hanuman</item>
+        <item>Ganpati Bappa</item>
+        <item>Gajanan Maharaj</item>
+        <item>Durga Devi</item>
+        <item>Mahalakshami</item>
+        <item>Maha Dev</item>
+        <item>Datta</item>
+        <item>Vitthal</item>
+    </string-array>
+
+
+    <string-array name="names_in_marathi_string">
+        <item>हनुमान</item>
+        <item>गणपती बाप्पा</item>
+        <item>गजानन महाराज</item>
+        <item>दुर्गा देवी</item>
+        <item>महालक्ष्मी माता</item>
+        <item>महादेव</item>
+        <item>दत्त</item>
+        <item>विठ्ठल</item>
+    </string-array>
+
+
+    <string-array name="names_in_hindi_string">
+        <item>हनुमान</item>
+        <item>गणपति बप्पा</item>
+        <item>गजानन महाराज</item>
+        <item>दुर्गा देवी</item>
+        <item>महालक्ष्मी माता</item>
+        <item>महादेव</item>
+        <item>दत्त</item>
+        <item>विठ्ठल</item>
+    </string-array>
+
+
+    <string name="title_activity_cls_full_fragment_and_pager">ClsFullFragmentAndPager</string>
+    <string name="action_alarm">Alarm</string>
+    <string name="action_settings">RingtoneSet</string>
+    <string name="white_bird_contact_us">Contact Us</string>
+    <string name="white_bird_app_version">Version 1.0.0</string>
+    <string name="white_bird_email">help@whitebird.co.in</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="banner_home_footer">ca-app-pub-6441643192425526/3988051297</string>
+    <string name="interstitial_full_screen">ca-app-pub-6441643192425526/1732588898</string>
+    <string name="play_all">Play All</string>
+</resources>

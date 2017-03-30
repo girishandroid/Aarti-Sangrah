@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1041371316218",
+    "firebase_url": "https://aarti-sanghrah.firebaseio.com",
+    "project_id": "aarti-sanghrah",
+    "storage_bucket": "aarti-sanghrah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041371316218:android:8c4dca7b281c4079",
+        "android_client_info": {
+          "package_name": "com.whitebird.aartisangrah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041371316218-kcvb2mpbooheel95lcr27r6jt4g7tngu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuXeXCJGoHVQ7y0rbQnRisWll1ou1Ny-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
